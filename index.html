@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <!-- Load dependent stylesheets. -->
+    <link href="video-js-6/video-js.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="videojs-contrib-ads-6.0.0/dist/videojs-contrib-ads.css" />
+    <link rel="stylesheet" href="videojs-ima-1.2.1/src/css/videojs.ima.css" /> -->
+  </head>
+
+  <body>
+    <video id="content_video" class="video-js vjs-default-skin"
+        controls preload="auto" width="800" height="800">
+      <source src="http://hls-cms.yuuflix.com/uploads/videos/encoded/ed1fbc502349ff0667914d2fb54e0b69815d3a21.m3u8" type="application/x-mpegURL" />
+    </video>
+    <!-- Load dependent scripts -->
+    <script src="video-js-6/video.js"></script>
+    <!-- <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script src="videojs-contrib-ads-6.0.0/dist/videojs-contrib-ads.js"></script>
+    <script src="videojs-ima-1.2.1/dist/videojs.ima.js"></script> -->
+    <script src="videojs-contrib-hls.js"></script>
+    <script src="player.js"></script>
+  </body>
+</html>
